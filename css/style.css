@@ -67,8 +67,7 @@ body {
     height: 100%;
 }
 .header-right-text {
-    justify-content: center;
-    align-items: center;
+    margin: 10px 0;
     height: 100%;
     flex-direction: column;
 }
@@ -88,7 +87,7 @@ body {
 }
 .main-footer {
     background-color: #f8f8f8;
-    height: 30vh;
+    height: 40vh;
 }
 .flex-box {
     display: flex;
