@@ -18,13 +18,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link text-light-mine" href="#">Dołącz do nas <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link text-light-mine" href="#">Inspiracje</a>
+                <a class="nav-item nav-link text-light-mine" href="#join-us">Dołącz do nas <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-light-mine" href="#inspiration">Inspiracje</a>
             </div>
             </div>
         </div>
       </nav>
-      <header class="main-header">
+      <header id="join-us" class="main-header">
           <div class="container ">
             <div class="row">
                 <div class="col-5">
@@ -34,8 +34,8 @@
                                 <h2>Dołącz do nas</h2>
                                 <p>Wypełnij zgłoszenie na członka klubu</p>
                             </div>
-                            <div class="col-3">
-                                <i class="fas fa-pencil-alt"></i>
+                            <div class="col-3 flex-box">
+                                <p><i class="fas fa-pencil-alt"></i></p>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                                 </div>
                             </div>
                         </form>
-                        <p class="text-center text-light-mine">Wypełniając zgłoszenie wyrażasz zgodę na przetwarzanie danych zgodnie z <a href="" class="politic ">polityką prywatności
+                        <p class="text-center text-light-mine">Wypełniając zgłoszenie wyrażasz zgodę na przetwarzanie danych zgodnie z <a href="" class="links ">polityką prywatności
                         </a></p>
                     </div>
                 </div>
@@ -69,8 +69,8 @@
                             <h1 class="heading">Świat jest na wyciągnięcie ręki</h1>
                             <p class="text-after-heading">Poznaj ludzi, których łączy pasja do podróżowania. Przekonaj się, jak wygląda życie bez granic</p>
                             <p>
-                                <button type="button" class="btn buttons-color">Znajdź nas <i class="fas fa-chevron-right"></i></button>
-                                <button type="button" class="btn button-header">Dowiedz się więcej <i class="far fa-lightbulb"></i></button>
+                                <button type="button" class="btn m-1 buttons-color">Znajdź nas <i class="fas fa-chevron-right"></i></button>
+                                <button type="button" class="btn m-1 button-header">Dowiedz się więcej <i class="far fa-lightbulb"></i></button>
                             </p>
                         </div>    
                     </div>
@@ -78,6 +78,35 @@
             </div>
           </div>
       </header>
+      <section id="inspiration" class="section-inner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-5">
+                    <iframe src="https://player.vimeo.com/video/115014610" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+                <div class="col-7">
+                    <h2>Inspirujemy</h2>
+                    <p class="grey-text">Poznajemy historie ludzi, którzy zrealizowali swoje marzenia.</p>
+                    <p class="grey-text">Podróżowanie pozwala poznać Świat i odkryć siebie. Spełniaj swoje marzenia i zdobywaj nowe pasje. Daj się ponieść przygodzie i dołącz do grona pasjonatów, którzy codziennie udowadniają, że nie ma rzeczy niemożliwych</p>
+                    <a class="links" href="">Więcej historii</a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <footer class="main-footer">
+        <div class="container flex-box h-100">
+            <div class="row ">
+                <div class="col-5">
+                    <h3>O nas</h3>
+                    <p class="grey-text">Naszym głównym celem jest wymiana doświadczenia między podróżnikami podczas cyklicznych spotkań. Naszym największym kapitałem jest wiedza i zaangażowanie naszych członków.</p>
+                </div>
+                <div class="col-5">
+                    <h3>Kontakt</h3>
+                    <a class="links" href="">klub@podróżnika.pl</a>
+                </div>
+            </div>
+        </div>
+      </footer>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>

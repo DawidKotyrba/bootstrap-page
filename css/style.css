@@ -48,11 +48,11 @@ body {
     background-color: #e38f42;
     color: #fff;
 }
-.politic {
+.links {
     text-decoration: none;
     color: #e38f42;
 }
-.politic:hover {
+.links:hover {
     color: #c2c2c2;
     text-decoration: none;
 }
@@ -79,4 +79,19 @@ body {
     padding: 10px;
     color: #fff;
     background-color:  rgba(0, 0, 0, 0.3);
+}
+.section-inner iframe {
+    width: 100%;
+}
+.grey-text {
+    color: #888;
+}
+.main-footer {
+    background-color: #f8f8f8;
+    height: 30vh;
+}
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
