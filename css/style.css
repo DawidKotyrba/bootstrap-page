@@ -36,6 +36,7 @@ body {
 
 .main-header {
     background-image: url('../img/form-background.jpg');
+    background-position: top;
     padding: 10vh 0;
 }
 
@@ -109,6 +110,15 @@ body {
 .button-header {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.btn {
+    transition: ease 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
 
 /* SECTION */
