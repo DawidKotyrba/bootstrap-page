@@ -5,7 +5,6 @@ $('.smooth-move, .nav-link, .navbar-brand, .new-button').click(function () {
     }, 1000);
 });
 
-
-$('input[type=submit]', 'a').click(function (e) {
+$('input[type=submit],a').click(function (e) {
     e.preventDefault();
 });
